@@ -1,0 +1,65 @@
+h1,
+p {
+  text-align: center;
+}
+
+body {
+  background-color: brown;
+  color: burlywood;
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  font-family: tahoma;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+select {
+  min-height: 2em;
+  width: 60%;
+}
+
+input,
+textarea {
+  background-color: #6f4e37;
+  color: gold;
+  min-height: 2em;
+  width: 100%;
+}
+
+form {
+  margin: 0 auto;
+  padding-bottom: 15px;
+  max-width: 500px;
+  width: 60vw;
+  min-width: 300px;
+}
+
+.inline {
+  width: unset;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 0.2em solid #966f5d;
+}
+
+fieldset:last-of-type {
+  border: none;
+}
+
+#submit {
+  display: block;
+  background-color: blue;
+  font-size: 1.1em;
+  min-height: 2em;
+  margin: auto;
+  border-color: gold;
+}
