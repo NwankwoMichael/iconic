@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css"/>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for your honest feedback</p>
+    <form id="survey-form" action="https://register-demo.freecodecamp.org" method="post">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label">Number <input id="number" type="number" min="000" max="999" placeholder="008" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Gender (required)</legend>
+          </label>
+          <label for="male"><input id="male" class="inline" name="gender" checked type="radio" value="gender-male"> Male</label>
+          <label for="female"><input id="female" class="inline" type="radio" name="gender" value="gender-female"> Female</label>
+          <label for="others"><input id="others" class="inline" type="radio" name="gender" value="gender-others"> Others</label>          
+        </fieldset>
+        <fieldset>
+          <legend>What is your compatible zodiac? (check all that applies)</legend>
+          <label for="aries"><input class="inline" id="aries" type="checkbox" value="zodiac-aries"> Aries</label>
+          <label for="taurus"><input id="taurus" class="inline" type="checkbox" value="zodiac-tauraus"> Taurus</label>
+          <label for="gemini"><input id="gemini" class="inline" type="checkbox" value="zodiac-gemini"> Gemini</label>
+          <label for="cancer"><input id="cancer" class="inline" type="checkbox" value="zodiac-cancer"> Cancer</label>
+          <label for="leo"><input id="leo" class="inline" type="checkbox" value="zodiac-leo"> Cancer</label>
+          <label for="virgo"><input id="virgo" class="inline" type="checkbox" value="zodiac-virgo"> Virgo</label>
+          <label for="libra"><input id="libra" class="inline" type="checkbox" value="zodiac-libra"> Libra</label>
+          <label for="scorpio"><input id="scorpio" class="inline" type="checkbox" value="zodiac-scorpio"> Scorpio</label>
+          <label for="sagittarius"><input id="sagittarius" class="inline" type="checkbox" value="zodiac-sagittarius"> Sagittarius</label>
+          <label for="capricorn"><input id="capricon" class="inline" type="checkbox" value="zodiac-capricon"> Capricorn</label>
+          <label for="aquarius"><input id="acquarius" class="inline" type="checkbox" value="zodiac-aquarius"> Aquarius</label>
+          <label for="pisces"><input id="pisces" class="inline" type="checkbox" value="zodiac-pisces"> Pisces</label>
+          <label for="dropdown">Which of these generations best describes you?
+          <select id="dropdown">
+            <option value="">select an option</option>
+            <option value="1">Generation X</option>
+            <option value="2">Millennials</option>
+            <option value="3">Generation Z</option>
+            <option value="4">Generation Alpha</option>
+          </select>
+          <label for="bio">Provide a bio <textarea id="bio" placeholder="Tell us more about yourself..." rows="5" cols="30"></textarea></label> 
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
