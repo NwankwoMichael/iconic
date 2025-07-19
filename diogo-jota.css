@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background:  #dfdfe2;
+  padding: 0 20px;
+}
+
+#main {
+  
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  max-width: 800px;
+}
+
+h1 {
+    text-align : center;
+  font-size: 40px;
+  margin: 0 15px 0 0;
+}
+
+h2{
+  margin-bottom: -30px;
+  margin-top: 3px;
+}
+.first {
+  text-align: center;
+  font-size: 15px;
+  margin: auto 0;
+  text-transform: uppercase;
+}
+
+#img-div{
+  display: inline-block;
+    margin: 10px auto;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+   
+}
+
+#image{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 200vw;
+  height: auto;
+}
+
+#img-caption {
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+}
+
+#tribute-info {
+  display: inline;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.heading {
+  background: #38384f;
+  color: #dfdfe2;
+  height: 1.5em;
+  padding: 2px;
+  text-align: center;
+  margin: 10px auto;
+  width: 62vw;
+}
+
+.heading:hover {
+  background: burlywood;
+  color: #0a0a23;
+}
+
+article{
+  padding-bottom: 10px;
+}
+
+article p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.sub-header{
+    text-align: left;
+    width: 50%;
+    border-bottom: 1px solid #356eaf;
+} 
+
+.detail {
+  text-align: right;
+  width: 48%;
+  border-bottom: 1px solid #356eaf;
+}
+
+ table{
+  width: 100%;
+  border-collapse: collapse;
+  padding-bottom: 10px;
+ }
+
+ .highlight {
+  color: #2222e3;
+}
+
+.column {
+  border-bottom: 1px solid #356eaf;
+  padding-bottom: 10px;
+}
+
+.row{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.total{
+  padding: 10px;
+}
+
+
+ table .achievement{
+  padding: 15px;
+}
+
+.sign{
+  display: block;
+  padding: 10px 0;
+  margin: 10px auto;
+  border: 1px solid #38384f;
+}
+
+a:link{
+  color: #0a0a23;
+}
+
+a:hover{
+  color: burlywood;
+}
+
+footer{
+  margin: 20px;
+}
+/*  
+
+background-image: url(https://th.bing.com/th/id/OIP.nd1ukyBDUYA0rcbvZzt7GwHaJ_?w=186&h=251&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
