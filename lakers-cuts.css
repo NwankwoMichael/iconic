@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url(blade.webp);
+  background-size: cover;
+}
+
+.page-container {
+  background-color: #777;
+  border-top: 2px solid white;
+  border-bottom: 4px double white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+#logo-div {
+  display: block;
+  margin: auto;
+}
+
+#logo {
+  width: max(14rem, 23vw);
+  display: block;
+  margin: 0 auto;
+  padding: 0.4rem;
+}
+
+h1 {
+  font-family: impact;
+  padding: 3px;
+}
+
+.name h1 {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+}
+
+.established {
+  text-align: center;
+  color: black;
+}
+
+.heading {
+  font-weight: 1000;
+  font-size: 6vw;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.3),
+    1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.services p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.specific {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 48%;
+}
+
+.last {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
