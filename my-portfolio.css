@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(95deg, #0a0a23, black);
+  color: linen;
+}
+
+header {
+  position: relative;
+}
+
+#navbar {
+  background-color: silver;
+  margin-bottom: 1rem;
+  margin-top: -2%;
+  padding-top: 0.5%;
+  padding-right: 2rem;
+  width: 100vw;
+  height: 7vh;
+  position: fixed;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0.5rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Desktops and laptops */
+@media screen and (min-width: 1224px) {
+  #navbar {
+    padding-top: 0.8rem;
+  }
+}
+
+#welcome-section {
+  height: 100vh;
+  padding-top: 70px;
+  background: linear-gradient(45deg, #0a0a23, black);
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 35vw;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+#welcome-section h1 {
+  text-align: center;
+  font-family: Open Sans;
+}
+
+#welcome-section p {
+  text-align: center;
+  color: gold;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+#projects {
+  background: linear-gradient(252deg, #7179ba, #9b9ec7);
+  display: grid;
+}
+
+#projects h4 {
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-bottom: 2px solid white;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+.project-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  place-items: center;
+}
+
+/* Smartphones  (portrait and landscape) */
+@media screen and (max-width: 480px) and (max-width: 768px) {
+  .project-div {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-width: 1224px) {
+  .project-div {
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#projects a {
+  color: gold;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.show-more {
+  text-align: center;
+}
+
+#contact {
+  height: 80vh;
+  background: linear-gradient(45deg, black, #0a0a23);
+  text-align: center;
+  border-bottom: 2px solid goldenrod;
+  margin-bottom: 0.3rem;
+  position: relative;
+}
+
+#contact div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contact h4 {
+  font-weight: bold;
+}
+
+#contact p {
+  font-size: 8px;
+  color: goldenrod;
+  margin-top: -1.2rem;
+}
+
+#contact a {
+  color: linen;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.icons {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+/* Tablets, ipads (portrait and landscape) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #contact h4 {
+    font-size: 2.5rem;
+  }
+
+  #contact p {
+    font-size: 12px;
+    margin-top: -3rem;
+  }
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
