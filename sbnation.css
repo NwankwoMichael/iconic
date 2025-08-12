@@ -17,6 +17,11 @@ header {
   color: #ffffff;
 }
 
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .header-div h6 {
   color: #ffffff;
   font-family: Roboto;
